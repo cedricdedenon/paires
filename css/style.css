@@ -1,0 +1,17 @@
+body{
+	background: url("../img/background.png");
+}
+
+img{
+	width: 100%;
+	height: auto;
+}
+
+figure{
+	border: 1px dashed black;
+	background-color: #FFF;
+}
+
+figure img:not([src="img/back.png"]){
+	padding: 5px;	
+}
